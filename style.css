@@ -1,0 +1,37 @@
+p{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight:bold;
+}
+img{
+    height:40%;
+    width:min(400px,80%);
+}
+.elems{
+    width:90%;
+    height:80%;
+    margin:auto;
+    position:relative;
+    top:50%;
+    display:flex;
+    justify-content:center;
+    flex-flow:row wrap;
+}
+.message{
+    width:min(300px,70%);
+    text-align:left;
+    margin:10%;
+}
+
+.message>*{
+    margin:20px 0;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+h1{
+    font-family:'kanit',sans-serif !important; 
+}
+button{
+    background:rgb(30,30,30);
+    color:white;
+    padding:10px 20px;
+    display:block;
+}
